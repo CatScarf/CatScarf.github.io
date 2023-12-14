@@ -1,0 +1,462 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html
+  lang="en"
+  dir="ltr"
+  class="scroll-smooth"
+  data-default-appearance="light"
+  data-auto-appearance="true"
+><head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="rgb(255,255,255)" />
+  
+  <title>使用 Hugo 搭建自己的个人主页 &middot; Jinzhang Hu</title>
+    <meta name="title" content="使用 Hugo 搭建自己的个人主页 &middot; Jinzhang Hu" />
+  
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/appearance.min.022d0ebc3b46a335eb1c7ef79b7f2de143d7cd5156d433638592ef1ce5f8554e.js"
+    integrity="sha256-Ai0OvDtGozXrHH73m38t4UPXzVFW1DNjhZLvHOX4VU4="
+  ></script>
+  
+  
+  
+  
+  
+  
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="/css/main.bundle.min.2dd44849efa9d0ef68e8cdede2901f86dec79026811f5cf6b25aa2b8cd8ee63e.css"
+    integrity="sha256-LdRISe&#43;p0O9o6M3t4pAfht7HkCaBH1z2slqiuM2O5j4="
+  />
+  
+  
+  
+  
+  
+  <meta
+    name="description"
+    content="
+      
+        Markdown &#43; Hugo &#43; Github pages
+      
+    "
+  />
+  
+  
+  
+  <link rel="canonical" href="https://example.org/posts/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/" />
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:title" content="使用 Hugo 搭建自己的个人主页" />
+<meta property="og:description" content="Markdown &#43; Hugo &#43; Github pages" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://example.org/posts/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-12-14T20:16:55+08:00" />
+<meta property="article:modified_time" content="2023-12-14T20:16:55+08:00" />
+
+
+  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="使用 Hugo 搭建自己的个人主页"/>
+<meta name="twitter:description" content="Markdown &#43; Hugo &#43; Github pages"/>
+
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Posts",
+    "name": "使用 Hugo 搭建自己的个人主页",
+    "headline": "使用 Hugo 搭建自己的个人主页",
+    
+    "abstract": "Markdown \u002b Hugo \u002b Github pages",
+    "inLanguage": "en",
+    "url" : "https:\/\/example.org\/posts\/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5\/",
+    "author" : {
+      "@type": "Person",
+      "name": ""
+    },
+    "copyrightYear": "2023",
+    "dateCreated": "2023-12-14T20:16:55\u002b08:00",
+    "datePublished": "2023-12-14T20:16:55\u002b08:00",
+    
+    "dateModified": "2023-12-14T20:16:55\u002b08:00",
+    
+    
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "192"
+  }
+  </script>
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+  
+  
+</head>
+<body
+    class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32"
+  >
+    <div id="the-top" class="absolute flex self-center">
+      <a
+        class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
+        href="#main-content"
+        ><span class="font-bold pe-2 text-primary-600 dark:text-primary-400">&darr;</span
+        >Skip to main content</a
+      >
+    </div>
+    
+    
+      <header class="py-6 font-semibold text-neutral-900 dark:text-neutral print:hidden sm:py-10">
+  <nav class="flex items-start justify-between sm:items-center">
+    
+    <div class="flex flex-row items-center">
+      
+  <a
+    class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+    rel="me"
+    href="/"
+    >Jinzhang Hu</a
+  >
+
+    </div>
+    
+    
+      <ul class="flex flex-col list-none text-end sm:flex-row">
+        
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/posts/"
+                  title="Posts"
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Blog</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href=""
+                  title=""
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Project</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href=""
+                  title=""
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Paper</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                
+                
+              
+            </li>
+          
+            
+              
+          
+        
+      </ul>
+    
+  </nav>
+</header>
+
+    
+    <div class="relative flex flex-col grow">
+      <main id="main-content" class="grow">
+        
+  <article>
+    <header class="max-w-prose">
+      
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        使用 Hugo 搭建自己的个人主页
+      </h1>
+      <div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+        
+
+
+
+
+
+  
+  
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2023-12-14 20:16:55 &#43;0800 CST">14 December 2023</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+      </div>
+      
+    </header>
+    <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+      
+      <div class="min-w-0 min-h-0 max-w-prose grow">
+        <p><code>Markdown</code> + <code>Hugo</code> + <code>Github pages</code></p>
+<h2 id="环境配置" class="relative group">环境配置 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e7%8e%af%e5%a2%83%e9%85%8d%e7%bd%ae" aria-label="Anchor">#</a></span></h2><h3 id="配置-hugohttpsgohugoiogetting-startedquick-start" class="relative group">配置 <a href="https://gohugo.io/getting-started/quick-start/" target="_blank" rel="noreferrer">Hugo</a> <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e9%85%8d%e7%bd%ae-hugohttpsgohugoiogetting-startedquick-start" aria-label="Anchor">#</a></span></h3><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 安装 Hugo（Mac）</span>
+</span></span><span class="line"><span class="cl">brew install hugo
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> quickstart
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 创建项目</span>
+</span></span><span class="line"><span class="cl">hugo new site quickstart
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 设置 Hugo 主题</span>
+</span></span><span class="line"><span class="cl">git init
+</span></span><span class="line"><span class="cl">git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;theme = &#39;ananke&#39;&#34;</span> &gt;&gt; hugo.toml
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 添加内容</span>
+</span></span><span class="line"><span class="cl">hugo new content posts/my-first-post.md
+</span></span><span class="line"><span class="cl">hugo server -D
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 启动Hugo（开发模式）</span>
+</span></span><span class="line"><span class="cl">hugo server
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 编译</span>
+</span></span><span class="line"><span class="cl">hugo
+</span></span></code></pre></div><h3 id="上传到-github-pageshttpspagesgithubcom" class="relative group">上传到 <a href="https://pages.github.com/" target="_blank" rel="noreferrer">Github Pages</a> <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e4%b8%8a%e4%bc%a0%e5%88%b0-github-pageshttpspagesgithubcom" aria-label="Anchor">#</a></span></h3><p>上传前要首先创建一个名字为 <code>&lt;username&gt;.github.io</code> 的仓库</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 进入public文件夹</span>
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> public
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 初始化git仓库</span>
+</span></span><span class="line"><span class="cl">git init
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;.DS_Store&#34;</span> &gt;&gt; .gitignore
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 连接到远程仓库</span>
+</span></span><span class="line"><span class="cl">git remote add origin git@github.com:username/username.github.io.git
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 提交并上传</span>
+</span></span><span class="line"><span class="cl">git add .
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;first commit&#34;</span>
+</span></span><span class="line"><span class="cl">git push origin main
+</span></span></code></pre></div><h2 id="目录结构" class="relative group">目录结构 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e7%9b%ae%e5%bd%95%e7%bb%93%e6%9e%84" aria-label="Anchor">#</a></span></h2><p><code>Hugo</code> 项目的基本目录结构如下</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">.
+</span></span><span class="line"><span class="cl">├── assets
+</span></span><span class="line"><span class="cl">│   └── img
+</span></span><span class="line"><span class="cl">│       └── author.jpg
+</span></span><span class="line"><span class="cl">├── config
+</span></span><span class="line"><span class="cl">│   └── _default
+</span></span><span class="line"><span class="cl">├── content
+</span></span><span class="line"><span class="cl">│   ├── _index.md
+</span></span><span class="line"><span class="cl">│   ├── about.md
+</span></span><span class="line"><span class="cl">│   └── posts
+</span></span><span class="line"><span class="cl">│       ├── _index.md
+</span></span><span class="line"><span class="cl">│       ├── first-post.md
+</span></span><span class="line"><span class="cl">│       └── another-post
+</span></span><span class="line"><span class="cl">│           ├── aardvark.jpg
+</span></span><span class="line"><span class="cl">│           └── index.md
+</span></span><span class="line"><span class="cl">└── themes
+</span></span><span class="line"><span class="cl">    └── congo
+</span></span></code></pre></div><h2 id="主题推荐" class="relative group">主题推荐 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e4%b8%bb%e9%a2%98%e6%8e%a8%e8%8d%90" aria-label="Anchor">#</a></span></h2><p><code>Hugo</code> 每个主题的使用方式都有所不同，这里我使用的是 <a href="https://themes.gohugo.io/themes/congo/" target="_blank" rel="noreferrer">Congo</a>，这个主题支持 <a href="https://katex.org/" target="_blank" rel="noreferrer">KaTeX</a> 数学公式。</p>
+<h3 id="congo" class="relative group">Congo <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#congo" aria-label="Anchor">#</a></span></h3><h4 id="安装-congohttpsjpanthergithubiocongodocsinstallation" class="relative group">安装 <a href="https://jpanther.github.io/congo/docs/installation/" target="_blank" rel="noreferrer">Congo</a> <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%ae%89%e8%a3%85-congohttpsjpanthergithubiocongodocsinstallation" aria-label="Anchor">#</a></span></h4><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 创建项目</span>
+</span></span><span class="line"><span class="cl">hugo new site mysite
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> mysite
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 安装主题</span>
+</span></span><span class="line"><span class="cl">git init
+</span></span><span class="line"><span class="cl">git submodule add -b stable https://github.com/jpanther/congo.git themes/congo
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 设置主题</span>
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;theme = &#39;congo&#39;&#34;</span> &gt;&gt; hugo.toml
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 复制配置文件</span>
+</span></span><span class="line"><span class="cl">mkdir -p config/_default
+</span></span><span class="line"><span class="cl">cp -r themes/congo/config/_default/* config/_default/
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 启动</span>
+</span></span><span class="line"><span class="cl">hugo server -D
+</span></span></code></pre></div>
+      </div>
+    </section>
+    <footer class="pt-8 max-w-prose print:hidden">
+      
+  <div class="flex">
+    
+    <div class="place-self-center">
+      
+      
+      <div class="text-2xl sm:text-lg">
+</div>
+    </div>
+  </div>
+
+
+      
+
+      
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+            <a class="group flex" href="/posts/%E4%BD%BF%E7%94%A8rust%E5%8A%A0%E9%80%9Fpython/">
+              <span
+                class="me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+                ><span class="ltr:inline rtl:hidden">&larr;</span
+                ><span class="ltr:hidden rtl:inline">&rarr;</span></span
+              >
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >使用Rust加速Python</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2023-12-13 20:16:55 &#43;0800 CST">13 December 2023</time>
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+      
+    </footer>
+  </article>
+
+        
+      </main><footer class="py-10 print:hidden">
+  
+  
+  <div class="flex items-center justify-between">
+    <div>
+      
+      
+        <p class="text-sm text-neutral-500 dark:text-neutral-400">
+            &copy;
+            2023
+            
+        </p>
+      
+      
+      
+        <p class="text-xs text-neutral-500 dark:text-neutral-400">
+          
+          
+          Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+            href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo</a>
+        </p>
+      
+    </div>
+    <div class="flex flex-row items-center">
+      
+      
+      
+      
+    </div>
+  </div>
+  
+  
+</footer>
+
+    </div>
+  </body>
+</html>

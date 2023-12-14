@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jinzhang Hu</title>
+    <link>https://example.org/</link>
+    <description>Recent content on Jinzhang Hu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 14 Dec 2023 20:16:55 +0800</lastBuildDate>
+    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用 Hugo 搭建自己的个人主页</title>
+      <link>https://example.org/posts/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/</link>
+      <pubDate>Thu, 14 Dec 2023 20:16:55 +0800</pubDate>
+      <guid>https://example.org/posts/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/</guid>
+      <description>Markdown + Hugo + Github pages</description>
+    </item>
+    <item>
+      <title>使用Rust加速Python</title>
+      <link>https://example.org/posts/%E4%BD%BF%E7%94%A8rust%E5%8A%A0%E9%80%9Fpython/</link>
+      <pubDate>Wed, 13 Dec 2023 20:16:55 +0800</pubDate>
+      <guid>https://example.org/posts/%E4%BD%BF%E7%94%A8rust%E5%8A%A0%E9%80%9Fpython/</guid>
+      <description>环境配置 #安装 Miniconda #https://docs.</description>
+    </item>
+  </channel>
+</rss>
